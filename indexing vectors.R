@@ -1,4 +1,3 @@
-
 #Creating the data vectors
 baby.names <- c("amy", 
                 "brittany",
@@ -56,31 +55,21 @@ baby.eyecolor <- c("brown",
                    "brown"
 )
 
-df=data.frame(baby.names,baby.eyecolor,baby.weight,baby.ages,baby.city, stringsAsFactors = FALSE)
 
 # What was the weight of the first baby?
-baby.weight[1]
-
 
 # What were the ages of the first 5 babies?
-baby.ages[1:5]
-
 
 # What were the names of the babies born with green eyes?
-baby.names[baby.eyecolor == "green"]
 
 # What were the weights of either blue or grey eyed babies?
-baby.weight[baby.eyecolor == "blue" | baby.eyecolor == "grey"]
 
 # Change the age of baby "irene" to 18
-baby.ages[baby.names == "irene"] <- 18
 
 # How many babies born in canton are in the data?
-sum(baby.city == "canton")
 
-# What percent of babies are older than 14 months?
-mean(baby.weight < 27)
-View(df)
+# What percent of babies weigh less than 27 months?
+
 
 
 
