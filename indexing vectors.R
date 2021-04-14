@@ -64,11 +64,12 @@ baby.eyecolor <- c("brown",
 
 # What were the weights of either blue or grey eyed babies?
 
-# Change the age of baby "irene" to 18
+# Change the age of baby "irene" to 18.
 
 # How many babies born in canton are in the data?
 
-# What percent of babies weigh less than 27 months?
+# What percent of babies were older than 14 months?
+
 
 
 
